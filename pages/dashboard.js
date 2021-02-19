@@ -22,6 +22,13 @@ import { mainListItems, secondaryListItems } from './listItems';
 import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
+import { theme } from '../styles/theme'
+import styled from 'styled-components';
+
+const Root = styled.button`
+  color: ${theme.palette.primary.light};
+  background-color: ${theme.palette.secondary.A100};
+`;
 
 function Copyright() {
     return (
@@ -44,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
     },
     toolbar: {
         paddingRight: 24, // keep right padding when drawer closed
+        backgroundColor: theme.palette.secondary.light
     },
     toolbarIcon: {
         display: 'flex',
