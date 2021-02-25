@@ -25,10 +25,11 @@ import Orders from './Orders';
 import { theme } from '../styles/theme'
 import styled from 'styled-components';
 
-const Root = styled.button`
-  color: ${theme.palette.primary.light};
-  background-color: ${theme.palette.secondary.A100};
-`;
+// const Root = styled.button`
+//   color: ${theme.palette.primary.light};
+//   background-color: ${theme.palette.secondary.A100};
+//   font-family: ${theme.typography.fontFamily};
+// `;
 
 function Copyright() {
     return (
