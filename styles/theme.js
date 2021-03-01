@@ -36,6 +36,9 @@ export const theme = createMuiTheme({
         },
     },
     typography: {
+        fontFamily: [
+            'Mulish',
+        ].join(','),
         useNextVariants: true, // Migration to typography v2
         htmlFontSize: 10,
         fontSize: 13,
