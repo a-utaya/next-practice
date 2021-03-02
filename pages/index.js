@@ -7,7 +7,6 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" />
       </Head>
 
       <main className={styles.main}>

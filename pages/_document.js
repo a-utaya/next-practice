@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -8,15 +8,16 @@ export default class MyDocument extends Document {
 
     render() {
         return (
-            <html>
+            <Html>
                 <Head>
-                    <style>{`body { margin: 0 } /* custom!*/`}</style>
+                    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet" />
+                    <style></style>
                 </Head>
                 <body>
                     <Main />
                     <NextScript />
                 </body>
-            </html>
+            </Html>
         )
     }
 }
